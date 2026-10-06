@@ -1,0 +1,18 @@
+.env
+.DS_Store
+__pycache__/
+.ipynb_checkpoints/
+# images are hosted on Hugging Face (python download_images.py)
+dataset/images/*
+!dataset/images/README.md
+# created by huggingface_hub during download_images.py
+dataset/.cache/
+# not released
+analysis/
+results/
+logs/
+benchmark/evaluate.ipynb
+benchmark/tanawpamana_eval.py
+benchmark/__pycache__/
+# kept locally, not released
+requirements.txt
